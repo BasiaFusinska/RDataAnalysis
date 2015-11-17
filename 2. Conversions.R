@@ -18,3 +18,7 @@ as.logical('TRUE')
 
 is.numeric('23')
 as.numeric('23')
+
+is.numeric('aaa')
+as.numeric('aaa')
+suppressWarnings(as.numeric('aaa'))
