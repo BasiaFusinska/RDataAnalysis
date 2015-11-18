@@ -8,6 +8,7 @@ df2Filter
 df2Filter$age[df2Filter$gender == 'F']
 
 #filter by rows
+df2Filter[2:4, ]
 df2Filter[df2Filter$age > 30, ]
 df2Filter[df2Filter$gender == 'M', ]
 
