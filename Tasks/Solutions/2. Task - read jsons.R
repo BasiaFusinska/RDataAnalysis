@@ -3,6 +3,12 @@ library("rjson")
 jsonLinesPath <- 'Data/lines.json'
 
 lines <- readLines(jsonLinesPath)
-objects <- lapply(lines, fromJSON)
+lines
+
+objects <- lapply(lines, function(x) { 
+  obj <- fromJSON(x)
+  list(id=obj$id, name=obj$name)
+  })
+
 objects
 

@@ -11,3 +11,9 @@ lapply(myList, function(x) { x^2 })
 
 #returning vector
 sapply(myList, function(x) { x^2 })
+
+#indexes
+lapply(myList, function(x) { 
+  print(parent.frame()$i)
+  x^2
+  })
