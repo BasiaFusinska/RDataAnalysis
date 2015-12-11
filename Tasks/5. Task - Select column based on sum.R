@@ -1,3 +1,6 @@
+# TASK 5:
+# Given data frame retrieve only columns which sum is an even number.
+
 #sum of elements
 sum(c(1,2,3))
 

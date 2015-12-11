@@ -1,3 +1,6 @@
+# TASK 4:
+# From given list retrieve only vectors that have 2 elements.
+
 myVector <- 3:15
 length(myVector)
 

@@ -1,3 +1,6 @@
+# TASK 10:
+# Decimate provided dataset by the mean value.
+
 A <- 1:100
 B <- 101:200
 C <- 201:300
