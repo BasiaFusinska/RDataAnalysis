@@ -21,6 +21,7 @@ myDataframe$c2
 summary(myDataframe)
 attributes(myDataframe)
 head(myDataframe)
+typeof(myDataframe)
 
 #matrix
 myMatrix <- matrix(c(1,2,3,4,5,6), nrow = 2)
@@ -30,3 +31,5 @@ typeof(myMatrix)
 
 myMatrix <- matrix(c(1,2,3,4,5,6), ncol = 2)
 myMatrix
+
+as.data.frame(myMatrix)

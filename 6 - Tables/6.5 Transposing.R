@@ -1,3 +1,6 @@
+install.packages("reshape2")
+library("reshape2")
+
 #data source
 level <- factor(c('High','Low','Medium','Medium','Low','Low','High','High','Low','Medium'))
 colour <- factor(c('red','blue','blue','yellow','yellow','red','red','yellow','blue','red'))
@@ -13,4 +16,4 @@ melt(dataSource)
 
 #limit melting
 melt(dataSource, id = "level")
-melt(dataSource, id = "level", measure = c('v1','v3'))
+melt(dataSource, id = c("level", "type"), measure = c('colour', 'v1','v3'))

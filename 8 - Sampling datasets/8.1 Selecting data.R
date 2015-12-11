@@ -9,7 +9,7 @@ dataList <-list(v1=v1,v2=v2,v3=v3,v4=v4,v5=v5)
 dataList
 dataList[c('v1','v4','v2')]
 dataList[c(1,5)]
-dataList[c(2:4)]
+dataList[c(2:3, 5)]
 dataList[c(1,3:5)]
 
 #excluding data

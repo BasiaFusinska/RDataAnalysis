@@ -23,4 +23,4 @@ ftable(threeWayTable)
 dataSource <- data.frame(A,B,C)
 dataSource
 xtabs(~., data=dataSource)
-xtabs(~A+B, data=dataSource)
+xtabs(~A+C, data=dataSource)

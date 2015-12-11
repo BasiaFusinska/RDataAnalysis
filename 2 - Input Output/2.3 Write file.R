@@ -2,6 +2,7 @@
 outputFile <- 'Data/sizesOutput.csv'
 
 write.csv(sizes, file=outputFile)
+sizes
 
-#without first row
+#without first column
 write.csv(sizes, file=outputFile, row.names = FALSE)

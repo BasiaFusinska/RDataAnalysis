@@ -9,3 +9,5 @@ n <- 10
 rown <- nrow(data2Decimate)
 
 rep(1:100)
+
+rep(1:10, 10)

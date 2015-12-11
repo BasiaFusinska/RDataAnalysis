@@ -1,5 +1,6 @@
 #creating a table
 levels <- factor(c('A','A','B','C','C','A','B','B','A','A'))
+levels
 oneWayTable <- table(levels)
 oneWayTable
 

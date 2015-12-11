@@ -1,6 +1,10 @@
 #vectors
 a <- 1:10
+a
 a[a > 4]
+a[f(a)]
+
+f <-function(x) { TRUE }
 
 b <- c("ab", "bc", "abc", "ac", "def")
 b[nchar(b) == 2]

@@ -11,6 +11,7 @@ b[x]
 
 #indexing with logicals
 y <- c(TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE)
+y
 
 a[y]
 b[y]

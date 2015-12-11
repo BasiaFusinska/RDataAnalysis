@@ -1,3 +1,5 @@
+install.packages("gmodels")
+
 #crosstabulation
 A <- c('F','M','M','F','F','F','M','M','M','F')
 B <- c('Y','N','N','NA','Y','N','NA','N','Y','Y')

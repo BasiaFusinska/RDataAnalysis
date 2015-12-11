@@ -1,6 +1,8 @@
 #arithmetic
 a <- 1:10
+a
 b <- 6:15
+b
 
 #vector & numbers
 a / 2
@@ -16,3 +18,8 @@ a * b
 
 #mix & match
 sqrt(a+b)
+
+a <- c(a, 1)
+a
+a + b
+b
