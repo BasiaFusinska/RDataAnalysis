@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 7:\n# Find a frequency table for the iris dataset species.\n\nattach(iris)\niris\nhead(iris)\n",
+    "created" : 1462979181955.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2459179564",
+    "id" : "B9E8516B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/7. Iris frequency table.R",
+    "project_path" : "Tasks/7. Iris frequency table.R",
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

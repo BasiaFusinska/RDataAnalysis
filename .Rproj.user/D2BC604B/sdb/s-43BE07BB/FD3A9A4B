@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#write data frame to a file\noutputFile <- 'Data/sizesOutput.csv'\n\nwrite.csv(sizes, file=outputFile)\nsizes\n\n#without first column\nwrite.csv(sizes, file=outputFile, row.names = FALSE)\n",
+    "created" : 1463146259347.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2440085421",
+    "id" : "FD3A9A4B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/2 - Input Output/2.3 Write file.R",
+    "project_path" : "2 - Input Output/2.3 Write file.R",
+    "properties" : {
+    },
+    "relative_order" : 26,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

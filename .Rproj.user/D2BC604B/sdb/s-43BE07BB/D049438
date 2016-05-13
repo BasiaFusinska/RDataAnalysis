@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#selecting elements\nx <- c(1, 4, 7)\n\na <- 1:10\na\na[x]\n\nb <- as.list(1:10)\nb\nb[x]\n\n#indexing with logicals\ny <- c(TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE)\ny\n\na[y]\nb[y]\n",
+    "created" : 1463154482211.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1741368466",
+    "id" : "D049438",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/4 - Filtering/4.3 Indexing.R",
+    "project_path" : "4 - Filtering/4.3 Indexing.R",
+    "properties" : {
+    },
+    "relative_order" : 31,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

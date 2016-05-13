@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#aggreagte by columns\nA <- 1:20\nB <- 21:40\nC <- 41:60\nD <- factor(c(letters[1:5],letters[5:1],letters[1:5],letters[5:1]))\n\ndataSource <- data.frame(A, B, C, D)\ndataSource\n\naggregate(dataSource, by=list(g1=D), FUN=mean)\n\n#aggregate by external factor\ndataSource <- data.frame(A, B, C)\ndataSource\n\naggregate(dataSource, by=list(g1=D), FUN=mean)\n\n#using formulas\ndataSource <- data.frame(A, B, C, D)\n\naggregate(. ~ D, dataSource, mean)\naggregate(B ~ D, dataSource, mean)\naggregate(cbind(A,B) ~ D, dataSource, mean)\naggregate(A + B ~ D, dataSource, mean)\n",
+    "created" : 1463155055988.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "66491546",
+    "id" : "91BE0D62",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/8 - Sampling datasets/8.3 Aggregating.R",
+    "project_path" : "8 - Sampling datasets/8.3 Aggregating.R",
+    "properties" : {
+    },
+    "relative_order" : 35,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

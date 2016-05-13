@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#prepare tables\nid1 <- 1:10\nid2 <- 2:11\ntype1 <- 3:12\ntype2 <- 4:13\nname <- c('Anna','John','Adam','Thom','Maria','Sebastian','Paul','Mark','Mike','Isabella')\nage <- c(15,20,35,41,32,24,51,43,17,21)\n\ndata1 <- data.frame(id=id1,name, type=type1)\ndata1\ndata2 <- data.frame(age,id=id2, type=type2)\ndata2\n\n#inner join\nmerge(data1,data2,by='id')\n\n#multiple columns\nmerge(data1,data2,by=c('id', 'type'))\n",
+    "created" : 1463155100262.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "967867",
+    "id" : "FE28051B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/9 - Merge/9.1 Joining datasets.R",
+    "project_path" : "9 - Merge/9.1 Joining datasets.R",
+    "properties" : {
+    },
+    "relative_order" : 36,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

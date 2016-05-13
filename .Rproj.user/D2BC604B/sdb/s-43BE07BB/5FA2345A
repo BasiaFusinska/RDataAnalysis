@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "objects\n\nobjectsDf <- data.frame(do.call(rbind, objects))\nobjectsDf\nobjectsDf[0]\n",
+    "created" : 1462996184899.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "697207873",
+    "id" : "5FA2345A",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/3. Task - data frame from rows.R",
+    "project_path" : "Tasks/Solutions/3. Task - data frame from rows.R",
+    "properties" : {
+    },
+    "relative_order" : 21,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

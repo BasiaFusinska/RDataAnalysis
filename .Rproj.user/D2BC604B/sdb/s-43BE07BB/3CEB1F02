@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#random samples\nv1 <- 1:100\nv2 <- 101:200\nv3 <- 201:300\nv4 <- 301:400\nv5 <- 401:500\n\ndataSource <- data.frame(v1, v2, v3, v4, v5)\nhead(dataSource)\n\ndataSource[sample(1:nrow(dataSource), 5, replace=FALSE),]\ndataSource[sample(1:nrow(dataSource), 15, replace=TRUE),]\n",
+    "created" : 1463155047667.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2740583515",
+    "id" : "3CEB1F02",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/8 - Sampling datasets/8.2 Random samples.R",
+    "project_path" : "8 - Sampling datasets/8.2 Random samples.R",
+    "properties" : {
+    },
+    "relative_order" : 34,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

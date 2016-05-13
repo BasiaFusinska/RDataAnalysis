@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 10:\n# Decimate provided dataset by the mean value.\n\nA <- 1:100\nB <- 101:200\nC <- 201:300\n\ndata2Decimate <- data.frame(A,B,C)\nhead(data2Decimate)\n\nn <- 10\nrown <- nrow(data2Decimate)\n\nrep(1:100)\n\nrep(1:10, 10)\n",
+    "created" : 1462979196369.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1667151820",
+    "id" : "ED867DEC",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/10. Decimate samples.R",
+    "project_path" : "Tasks/10. Decimate samples.R",
+    "properties" : {
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

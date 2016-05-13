@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#vectors\na <- 1:10\na <- c(33, a)\na\nb <- 11:20\nb <- c(b, 22)\nb\n\n#data frames\ndf <- data.frame(a, b)\ndf\n\n# binding columns\nc <- 20:30\ndf$c <- 20:30\ndf\n\nd <- 30:40\ne <- 40:50\ncbind(df, d, e)\ndf\n\n#binding rows\nx1 <- c(1,2,3)\nx2 <- c(4,5,6)\nx3 <- c(7,8,9)\nrbind(df,x1, x2, x3)\ndf2 <- rbind(df, c('a','b','c'))\ndf2$a[0]\ndf$a[0]\n\nbindResult <- rbind(x1, x2)\nbindResult\ntypeof(bindResult)\n",
+    "created" : 1462970965383.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1604074109",
+    "id" : "BE23BB0B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/3 - Operations/3.2 Appending.R",
+    "project_path" : "3 - Operations/3.2 Appending.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

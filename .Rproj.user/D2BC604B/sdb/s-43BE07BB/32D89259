@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#implicit\na <- c(1,2,3)\na\na[2] <- \"4\"\na\n\nb <-c('a', 'b', 'c')\nb\nb[2] <- 3\nb\n\nc <- c(TRUE, FALSE, TRUE)\nc[2] <- 4\nc\n\n#explicit\nis.character(2)\nas.character(2)\n\nis.logical('TRUE')\nas.logical('TRUE')\n\nis.logical(0)\nas.logical(0)\n\nis.numeric('23')\nas.numeric('23')\n\nis.numeric('aaa')\nx <- as.numeric('aaa')\nx\nsuppressWarnings(as.numeric('aaa'))\n\nNA\n",
+    "created" : 1462998877972.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2566257839",
+    "id" : "32D89259",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/1 - Basics/1.2 Conversions.R",
+    "project_path" : "1 - Basics/1.2 Conversions.R",
+    "properties" : {
+    },
+    "relative_order" : 22,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

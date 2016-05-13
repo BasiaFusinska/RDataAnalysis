@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"rjson\")\n\njsonLinesPath <- 'Data/lines.json'\n\nlines <- readLines(jsonLinesPath)\nlines\n\nobjects <- lapply(lines, function(x) { \n  obj <- fromJSON(x)\n  list(id=obj$id, name=obj$name)\n  })\n\nobjects\n\n",
+    "created" : 1462996180113.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1666042949",
+    "id" : "AAE61F4B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/2. Task - read jsons.R",
+    "project_path" : "Tasks/Solutions/2. Task - read jsons.R",
+    "properties" : {
+    },
+    "relative_order" : 20,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

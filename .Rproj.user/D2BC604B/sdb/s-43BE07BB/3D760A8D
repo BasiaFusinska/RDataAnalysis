@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "attach(iris)\niris\nhead(iris)\n\ntable(Species)\ndetach(iris)\n",
+    "created" : 1462995065069.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1411632898",
+    "id" : "3D760A8D",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/7. Iris frequency table.R",
+    "project_path" : "Tasks/Solutions/7. Iris frequency table.R",
+    "properties" : {
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

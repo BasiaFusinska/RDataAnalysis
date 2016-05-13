@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 4:\n# From given list retrieve only vectors that have 2 elements.\n\nmyVector <- 3:15\nlength(myVector)\n\nlist2Filter <- list(c(1,2,3), c(4,5), c(6), c('a','b'), c('c'), c('d','e','f'))\n#Filter only vectors of 2 elements",
+    "created" : 1462976863065.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "306539697",
+    "id" : "BC0C631B",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/4. Task - filter list.R",
+    "project_path" : "Tasks/4. Task - filter list.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

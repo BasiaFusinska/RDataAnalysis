@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#numeric\nnum <- 3\nnum\ntypeof(num)\n\ncnum <- c(1,2,3)\ncnum\ncnum[2]\ntypeof(cnum)\n\n#character\nch <- 'aaa'\nch\ntypeof(ch)\n\ncch <- c(\"a\", 'b', 'c')\ncch[1]\ntypeof(cch)\ncch[0]\n\n#logical\nl <- TRUE\ntypeof(l)\n\ncl <- c(TRUE, FALSE, FALSE)\ncl\ncl[3]\ntypeof(cl)\n\n#typeof in o index\ncnum[0]\ncch[0]\ncl[0]\n\n#default values\ndnum <- numeric(10)\ndnum <- double(10)\ndnum\ndch <- character(10)\ndch\ndl <- logical(10)\ndl\n\n#generating values\nonum <- 10:15\nonum <- c(2,10:15,20:10)\nonum\n\noch <- letters[1:5]\noch\n\noch <- 6\noch\noch[0]\n",
+    "created" : 1462965339563.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1580295151",
+    "id" : "9EA016A5",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/1 - Basics/1.1 Basic Types.R",
+    "project_path" : "1 - Basics/1.1 Basic Types.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

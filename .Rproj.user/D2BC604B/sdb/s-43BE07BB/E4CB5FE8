@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "install.packages(\"reshape2\")\nlibrary(\"reshape2\")\n\n#data source\nlevel <- factor(c('High','Low','Medium','Medium','Low','Low','High','High','Low','Medium'))\ncolour <- factor(c('red','blue','blue','yellow','yellow','red','red','yellow','blue','red'))\nv1 <- 1:10\nv2 <- 11:20\nv3 <- 21:30\n\ndataSource <- data.frame(level, colour, v1, v2, v3)\ndataSource\n\n#melt data\nmelt(dataSource)\n\n#limit melting\nmelt(dataSource, id = \"level\")\nmelt(dataSource, id = c(\"level\", \"type\"), measure = c('colour', 'v1','v3'))\n",
+    "created" : 1463157683421.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2806456830",
+    "id" : "E4CB5FE8",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/6 - Tables/6.5 Transposing.R",
+    "project_path" : "6 - Tables/6.5 Transposing.R",
+    "properties" : {
+    },
+    "relative_order" : 40,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

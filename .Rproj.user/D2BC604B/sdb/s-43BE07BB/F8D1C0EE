@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# 2 way frequency table\nA <- c('F','M','M','F','F','F','M','M','M','F')\nB <- c('Y','N','N','NA','Y','N','NA','N','Y','Y')\n\nmyTable <- table(A, B)\nmyTable\n\n#frequencies by A & B\nmargin.table(myTable, 1)\nmargin.table(myTable, 2)\n\n#percentages\nprop.table(myTable)\nprop.table(myTable, 1)\nprop.table(myTable, 2)\n\n# 3 way frequesncy table\nC <- c('20','30','20','50','30','50','30','20','50','50')\nthreeWayTable <- table(A,B,C)\nthreeWayTable\nftable(threeWayTable)\n\ndataSource <- data.frame(A,B,C)\ndataSource\nxtabs(~., data=dataSource)\nxtabs(~A+C, data=dataSource)\n",
+    "created" : 1463157675168.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "45482724",
+    "id" : "F8D1C0EE",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/6 - Tables/6.3 Frequency tables.R",
+    "project_path" : "6 - Tables/6.3 Frequency tables.R",
+    "properties" : {
+    },
+    "relative_order" : 38,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

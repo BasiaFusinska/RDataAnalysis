@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#reading a file\nsizesFile <- 'Data/sizes.csv'\nsizesSemicolonFile <- 'Data/sizes - semicolon.csv'\n\nsizes <- read.csv(sizesFile)\nsizes\nsizes$category[0]\nsizes$length[0]\nsizes$width[0]\n\n#determining separator\nsizes_sem <- read.csv(sizesSemicolonFile)\nsizes_sem\n\nsizes_sem <- read.csv(sizesSemicolonFile, sep = ';')\nsizes_sem\n\n#including header\nsizes_sem <- read.csv(sizesSemicolonFile, sep = ';', head = FALSE)\nsizes_sem\nsizes_sem$V1[0]\nsizes_sem$V2[0]\nsizes_sem$V3[0]\n",
+    "created" : 1462994537922.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2890179429",
+    "id" : "D9C91673",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/2 - Input Output/2.1 Read file.R",
+    "project_path" : "2 - Input Output/2.1 Read file.R",
+    "properties" : {
+    },
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

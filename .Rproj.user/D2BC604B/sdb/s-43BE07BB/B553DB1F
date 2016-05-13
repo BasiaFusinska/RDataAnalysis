@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 2:\n# Read a list of json objects from lines.json file.\n\ninstall.packages(\"rjson\")\n\nlibrary(\"rjson\")\n\njsonText <- '{ \"id\": 10, \"name\": \"John\"}'\njsonText\nfromJSON(jsonText)\n\njsonLinesPath <- 'Data/lines.json'",
+    "created" : 1462979072088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2465603407",
+    "id" : "B553DB1F",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/2. Task - read jsons.R",
+    "project_path" : "Tasks/2. Task - read jsons.R",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

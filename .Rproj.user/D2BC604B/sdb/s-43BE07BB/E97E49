@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#vectors\na <- c(7,4:1,5,10:8,6)\na\n\nsort(a)\nsort(a, decreasing = TRUE)\n\n#lists\nb <- as.list(a)\nb\nsort(b)\n\n#order\ndataFrame2Sort <- data.frame(v1=c(1,2,3,4,5,6), v2=c(2,3,1,2,3,1), v3=c(3,1,2,2,1,3))\ndataFrame2Sort\n\ndataFrame2Sort[order(dataFrame2Sort$v2), ]\ndataFrame2Sort[order(dataFrame2Sort$v2, dataFrame2Sort$v3), ]\ndataFrame2Sort[order(dataFrame2Sort$v2, -dataFrame2Sort$v3), ]\n",
+    "created" : 1463154733726.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2749768585",
+    "id" : "E97E49",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/5 - Sorting/5.1 Sorting.R",
+    "project_path" : "5 - Sorting/5.1 Sorting.R",
+    "properties" : {
+    },
+    "relative_order" : 32,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

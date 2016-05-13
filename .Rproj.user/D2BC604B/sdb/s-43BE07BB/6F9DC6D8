@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#vectors\na <- 1:10\na\na[a > 4]\na[f(a)]\n\nf <-function(x) { TRUE }\n\nb <- c(\"ab\", \"bc\", \"abc\", \"ac\", \"def\")\nb[nchar(b) == 2]\n\n#lists\nA <- as.list(1:10)\nB <- list(\"ab\", \"bc\", \"abc\", \"ac\", \"def\")\nC <- list(a=\"ab\", b=\"bc\", c=\"abc\", d=\"ac\", e=\"def\")\n\nA[A > 4]\nB[nchar(B) == 2]\nC[nchar(C) == 2]\n\n#Filter\nFilter(function(x) {nchar(x) == 2}, b)\n\n\n",
+    "created" : 1463154475287.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1204360349",
+    "id" : "6F9DC6D8",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/4 - Filtering/4.1 Filtering - logical.R",
+    "project_path" : "4 - Filtering/4.1 Filtering - logical.R",
+    "properties" : {
+    },
+    "relative_order" : 30,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

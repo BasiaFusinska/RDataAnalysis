@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "install.packages(\"gmodels\")\n\n#crosstabulation\nA <- c('F','M','M','F','F','F','M','M','M','F')\nB <- c('Y','N','N','NA','Y','N','NA','N','Y','Y')\nC <- c('20','30','20','50','30','50','30','20','50','50')\n\ndataSource <- data.frame(A,B,C)\ndataSource\n\nlibrary(gmodels)\nCrossTable(dataSource$A, dataSource$B)\n",
+    "created" : 1463157678630.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2102542793",
+    "id" : "AD98409D",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/6 - Tables/6.4 Crosstabulation.R",
+    "project_path" : "6 - Tables/6.4 Crosstabulation.R",
+    "properties" : {
+    },
+    "relative_order" : 39,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

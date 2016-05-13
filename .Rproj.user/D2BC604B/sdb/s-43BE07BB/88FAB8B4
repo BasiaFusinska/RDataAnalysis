@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#creating data frames (from vectors)\nmyDataframe <- data.frame(c(1,2,3,4,5), c('a','b','c','d','e'))\nmyDataframe\ntypeof(myDataframe)\n\n#column names\nmyDataframe <- data.frame(c1=c(1,2,3,4,5), c2=c('a','b','c','d','e'))\nmyDataframe\n\nc1 <- c(1,2,3,4,5)\nc2 <- c('a','b','c','d','e')\nmyDataframe <- data.frame(c1, c2)\nmyDataframe\n\n#access\nnames(myDataframe)\nmyDataframe$c1\nmyDataframe$c2\n\n#summary\nsummary(myDataframe)\nattributes(myDataframe)\nhead(myDataframe)\ntypeof(myDataframe)\n\n#matrix\nmyMatrix <- matrix(c(1,2,3,4,5,6), nrow = 2)\nmyMatrix\nmyMatrix[0]\ntypeof(myMatrix)\n\nmyMatrix <- matrix(c(1,2,3,4,5,6), ncol = 2)\nmyMatrix\n\nas.data.frame(myMatrix)\n",
+    "created" : 1462994807000.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3512386962",
+    "id" : "88FAB8B4",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/1 - Basics/1.4 Data frames.R",
+    "project_path" : "1 - Basics/1.4 Data frames.R",
+    "properties" : {
+    },
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

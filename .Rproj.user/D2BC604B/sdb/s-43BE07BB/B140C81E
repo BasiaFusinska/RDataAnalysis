@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "linesFile <- 'Data/lines.txt'\n\nlines <- readLines(linesFile)\nlines\nlines[0]\n\n",
+    "created" : 1463006068909.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2336205565",
+    "id" : "B140C81E",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/2 - Input Output/2.4 Read lines.R",
+    "project_path" : "2 - Input Output/2.4 Read lines.R",
+    "properties" : {
+    },
+    "relative_order" : 25,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

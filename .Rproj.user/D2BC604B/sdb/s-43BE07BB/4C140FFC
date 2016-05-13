@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "a <- 1:10\nb <- \"73\"\n\na[5] <- as.numeric(b)\na\n",
+    "created" : 1462996167943.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4140828652",
+    "id" : "4C140FFC",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/1. Task - Conversion.R",
+    "project_path" : "Tasks/Solutions/1. Task - Conversion.R",
+    "properties" : {
+    },
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

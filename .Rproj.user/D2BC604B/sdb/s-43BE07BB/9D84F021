@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#factor summary\nsizes$category\ntypeof(sizes$category)\nsummary(sizes$category)\nlevels(sizes$category)\n\n#creating a factor\nmyFactors <- factor(c(1,2,1,1,3,4,3))\nmyFactors\nmyFactors[0]\nmyFactors <- factor(c('a', 'a', 'b', 'a', 'b', 'c', 'b'))\nmyFactors\nmyFactors[0]\n\nsummary(myFactors)\nlevels(myFactors)\n\n# reading strings as factors\noptions(stringsAsFactors = FALSE)\nsizes <- read.csv(sizesFile)\nsizes$category\ntypeof(sizes$category)\nsummary(sizes$category)\n",
+    "created" : 1463005379468.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3058723548",
+    "id" : "9D84F021",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/2 - Input Output/2.2 Factors.R",
+    "project_path" : "2 - Input Output/2.2 Factors.R",
+    "properties" : {
+    },
+    "relative_order" : 24,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

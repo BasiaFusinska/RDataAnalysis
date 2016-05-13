@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#creating a table\nlevels <- factor(c('A','A','B','C','C','A','B','B','A','A'))\nlevels\noneWayTable <- table(levels)\noneWayTable\n\n#attributes\nattributes(oneWayTable)\ntypeof(oneWayTable)\n\nsummary(oneWayTable)\n\n#table from matrix\nmyMatrix <- matrix(c(5,3,2), ncol = 3)\nmyMatrix\nresultTable <- as.table(myMatrix)\nresultTable\nattributes(resultTable)\n\nmyMatrix <- matrix(c(5,3,2), ncol = 3)\nmyMatrix\ncolnames(myMatrix) <- c('X', 'Y', 'Z')\nrownames(myMatrix) <- c('X')\nresultTable <- as.table(myMatrix)\nresultTable\nattributes(resultTable)\n",
+    "created" : 1463155496928.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2018530339",
+    "id" : "3B3C3ADC",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/6 - Tables/6.1 One way tables .R",
+    "project_path" : "6 - Tables/6.1 One way tables .R",
+    "properties" : {
+    },
+    "relative_order" : 37,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

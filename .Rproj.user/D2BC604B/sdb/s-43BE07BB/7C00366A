@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 5:\n# Given data frame retrieve only columns which sum is an even number.\n\n#sum of elements\nsum(c(1,2,3))\n\n#check if even number\n5 %% 2\n4 %% 2\n\nmyColumns <- data.frame(v1=c(1,6,11), v2=c(2,7,12), v3=c(3,8,13), v4=c(4,9,14), v5=c(5,10,15))\nmyColumns\n",
+    "created" : 1462979128289.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4094058657",
+    "id" : "7C00366A",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/5. Task - Select column based on sum.R",
+    "project_path" : "Tasks/5. Task - Select column based on sum.R",
+    "properties" : {
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

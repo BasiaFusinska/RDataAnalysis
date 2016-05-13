@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#execute function call\nargList <- list(3, 5)\n3*5\ndo.call(\"*\", argList)\n\n#apply accross elements\nmyList <- c(1, 4, 9, 16, 25)\nf <- function(a,n) { as.character(a + n) }\nlapply(myList, sqrt)\n\nmyList <- c(v1=1, v2=2, v3=3, v4=4)\nmyList\nlapply(myList, function(x) { x^2 })\n\n#returning vector\nsapply(myList, function(x) { x^2 })\n\n#indexes\nlapply(myList, function(x) { \n  print(parent.frame()$i)\n  x^2\n  })\n",
+    "created" : 1463154445782.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2663522916",
+    "id" : "C9AFFD46",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/3 - Operations/3.4 Aggregate operations.R",
+    "project_path" : "3 - Operations/3.4 Aggregate operations.R",
+    "properties" : {
+    },
+    "relative_order" : 29,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

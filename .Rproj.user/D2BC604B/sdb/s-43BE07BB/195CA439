@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "a\nmean(a)\nmax(a)\nmin(a)\nsum(a)\nmedian(a)\nquantile(a)\n",
+    "created" : 1462970970237.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3807154032",
+    "id" : "195CA439",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/3 - Operations/3.3 Statistics operations.R",
+    "project_path" : "3 - Operations/3.3 Statistics operations.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

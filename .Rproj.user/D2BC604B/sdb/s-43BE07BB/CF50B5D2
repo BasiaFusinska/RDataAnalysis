@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "A <- 1:100\nB <- 101:200\nC <- 201:300\n\ndata2Decimate <- data.frame(A,B,C)\nhead(data2Decimate)\n\nn <- 10\nrown <- nrow(data2Decimate)\n\nindex <- rep(1:(rown/n), n)\nindex <- index[order(index)]\n\ndecimatedData <- aggregate(data2Decimate, by=list(dec=index), FUN=mean)\ndecimatedData\ndecimatedData$dec <- NULL\ndecimatedData\n",
+    "created" : 1462996171867.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4192168475",
+    "id" : "CF50B5D2",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/10. Decimate samples.R",
+    "project_path" : "Tasks/Solutions/10. Decimate samples.R",
+    "properties" : {
+    },
+    "relative_order" : 19,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

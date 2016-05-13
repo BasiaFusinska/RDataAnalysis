@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "list2Filter <- list(c(1,2,3), c(4,5), c(6), c('a','b'), c('c'), c('d','e','f'))\n#Filter only vectors of 2 elements\n\nlist2Filter[lapply(list2Filter, length) == 2]\n",
+    "created" : 1463149397219.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3416871171",
+    "id" : "9588975D",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/Solutions/4. Task - filter list.R",
+    "project_path" : "Tasks/Solutions/4. Task - filter list.R",
+    "properties" : {
+    },
+    "relative_order" : 27,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

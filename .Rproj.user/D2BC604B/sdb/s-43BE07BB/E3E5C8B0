@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#arithmetic\na <- 1:10\na\nb <- 6:15\nb\n\n#vector & numbers\na / 2\nb * 3\nsqrt(b)\nexp(a)\nb^2\n\n#vectors\na + b\na - b\na * b\n\n#mix & match\nsqrt(a+b)\n\na <- c(a, 1)\na\na + b\nb\n",
+    "created" : 1462970962500.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3820964829",
+    "id" : "E3E5C8B0",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/3 - Operations/3.1 Operations.R",
+    "project_path" : "3 - Operations/3.1 Operations.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

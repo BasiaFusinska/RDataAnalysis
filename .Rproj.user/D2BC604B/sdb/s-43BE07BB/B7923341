@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# TASK 8:\n# Find duplicates of the provided vector.\n\ndataWithDuplicates <- c(1,2,3,6,4,5,2,6,7,6,8,9,2,10,4)\n\n#duplicates",
+    "created" : 1462979190129.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1154922123",
+    "id" : "B7923341",
+    "lastKnownWriteTime" : 1462965284,
+    "last_content_update" : 1462965284,
+    "path" : "C:/Git/RDataAnalysis/Tasks/8. Print duplicates.R",
+    "project_path" : "Tasks/8. Print duplicates.R",
+    "properties" : {
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
